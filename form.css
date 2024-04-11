@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align:center;
+    font-family: "Apple Brail;
+    font-size:40px;
+    top: 20px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+      background-color: black;
+  font-family: cursive;
+}
+
+.blow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+body{
+    font-family: Inter;
+    height: 80vh;
+
+}
+.menu{
+    position:sticky;
+    top: 0;
+    left:0;
+    background-color: white;
+
+}
+.menu > ul{
+    display:flex;
+    list-style: none;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.menu li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+}
+.sous-nav{
+    top: 60px;
+    position: absolute;
+    width: max-content;
+    list-style: none;
+    display: none;
+}
+.has-sous-nav:hover .sous-nav{
+    display: block;
+}
+.sous-nav li a:hover{
+    background-color: aqua;
+}
+img{
+    width:1680px;
+    height: 500px;
+    overflow: hidden;
+}
+h1{
+    color:black;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/*noinspection ALL*/
+div.barre{
+    background-color: violet;
+    font-size: 40px;
+    cursor:narrow;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+div.title{
+    color: white;
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom:30px ;
+}
+
+.box{
+    background-color: darkmagenta;
+    position:relative;
+    border-radius: 25px;
+
+}
+input{
+    background-color: whitesmoke;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    border-radius: 10px;
+    width:150px;
+    height:25px;
+    text-align: center;
+    font-weight: normal;
+
+}
+footer{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+footer img{
+    position: absolute;
+    right:10px;
+    height:300px;
+    width:300px;
+
+button{
+    position: relative;
+    align-items: center;
+    align-content: center;
+
+}
+
+footer p img{
+    float: right;
+    width: 33.33%;
+    padding: 50px;
+}
+#text{
+    font-size: medium;
+}
